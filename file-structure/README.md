@@ -1,8 +1,12 @@
-# React + Vite
+# File Structure
+- This project is demonstration of we can create nested folders and files to any level.
+- Setup 
+ - Download or fork the repo
+ - hit command -> npm install
+ - hit command npm run dev
+ - Server will be running on port 5000 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ # Concept
+  - Data contains a strcuture like 
+   - [{name: 'File', type: 'FOLDER' | 'FILE', subFolders: [...]}]
+  - Rendered folders and files, if folder then again call the same component else just render a file
